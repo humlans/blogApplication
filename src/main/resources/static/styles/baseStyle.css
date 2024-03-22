@@ -1,0 +1,43 @@
+* {
+    color: #14224E;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 100px auto 100px;
+}
+
+#header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color:#FF4A4A ;
+
+}
+
+#asideLeft {
+    background-color: #FFE0C5;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#main {
+    background-color: #FFF5E0;
+    grid-column: 2;
+    grid-row:2;
+    text-align: center;
+    padding: 10%;
+}
+
+#asideRight {
+    background-color: #FFE0C5;
+    grid-column: 3;
+    grid-row: 2;
+}
+#footer {
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: #BC3E3E;
+
+}
