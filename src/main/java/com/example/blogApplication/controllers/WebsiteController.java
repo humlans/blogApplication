@@ -16,4 +16,9 @@ public class WebsiteController {
     public String editpage(Model model) {
         return "editPage";
     }
+
+    @GetMapping("createpage")
+    public String createpage(Model model) {
+        return "createPostPage";
+    }
 }
