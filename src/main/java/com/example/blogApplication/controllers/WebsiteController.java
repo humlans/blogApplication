@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WebsiteController {
 
     @GetMapping("homepage")
-    public String homepage(Model model){
+    public String homepage(Model model) {
         return "homePage";
+    }
+
+    @GetMapping("editpage")
+    public String editpage(Model model) {
+        return "editPage";
     }
 }

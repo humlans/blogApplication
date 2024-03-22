@@ -1,6 +1,7 @@
 * {
     color: #14224E;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -12,7 +13,7 @@
 #header {
     grid-column: 1/4;
     grid-row: 1;
-    background-color:#FF4A4A ;
+    background-color:#FF4A4A;
 
 }
 
@@ -34,10 +35,10 @@
     background-color: #FFE0C5;
     grid-column: 3;
     grid-row: 2;
+    padding: 10%;
 }
 #footer {
     grid-column: 1/4;
     grid-row: 3;
     background-color: #BC3E3E;
-
 }

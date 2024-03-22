@@ -2,10 +2,38 @@
 <html xmlns:th="https://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/baseStyle.css"/>
     <title>Edit</title>
 </head>
 <body>
+    <div class="container">
+        <div id="header">
+            <p>DIVA</p>
+        </div>
 
+        <div id="asideLeft">
+            <p>Left</p>
+        </div>
+
+        <div id="main">
+            <p>Edit blogpost</p>
+        </div>
+
+        <div id="asideRight">
+            <h2>Menu</h2>
+            <dl>
+                <dt> <button id="home">Homepage</button></dt>
+                <dt>Category</dt>
+                <dd>- blog post title</dd>
+                <dt>Edit</dt>
+                <dd><button id="edit">- New post</button></dd>
+            </dl>
+        </div>
+
+        <div id="footer">
+            Contact us
+        </div>
+    </div>
     <script src="scripts/editPage.js"></script>
 </body>
 </html>
