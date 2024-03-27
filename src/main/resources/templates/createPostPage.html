@@ -28,16 +28,15 @@
                 <form class="createPost">
                     <label for="title">Title:</label><br>
                     <input id="title" name="title" type="text" required/><br><br>
-                    <label for="author">Author:</label><br>
-                    <input id="author" name="author" type="text" required/><br><br>
+                    <label for="userId">User ID::</label><br>
+                    <input id="userId" name="author" type="number" required/><br><br>
                     <label>Text content:</label><br>
                     <textarea id="textContent" name="textContent" type="text" required></textarea><br><br>
-                    <label for="id">ID:</label><br>
-                    <input id="id" name="id" type="number" required/><br><br>
                     <label for="date">Date:</label><br>
                     <input id="date" name="date" type="text" required/><br><br>
-                    <button id="createButton">Submit</button>
-                </form>
+                    <button id="createButton" onclick="createBlogPost()">Submit</button>
+                </form><br>
+                <p id="messageResponse"></p>
             </div>
         </div>
 
@@ -54,6 +53,6 @@
             Contact us
         </div>
     </div>
-    <script src="scripts/editPage.js"></script>
+    <script src="scripts/createPage.js"></script>
 </body>
 </html>

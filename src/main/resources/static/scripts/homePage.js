@@ -14,6 +14,7 @@ edit.addEventListener("click",
 );
 create.addEventListener("click",
     function() {
+        console.log("test");
         window.location = "createpage";
     }
 );
